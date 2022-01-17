@@ -1,8 +1,7 @@
 import com.techreturners.bubbleteaordersystem.service.BubbleTeaRouletteService;
 import com.techreturners.bubbleteaordersystem.model.BubbleTeaTypeEnum;
 
-
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import testhelper.RandomStub;
 import static org.junit.Assert.assertEquals;
 

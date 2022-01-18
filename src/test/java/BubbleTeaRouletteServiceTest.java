@@ -24,7 +24,7 @@ public class BubbleTeaRouletteServiceTest {
     }
 
     @Test
-    public void useStubToReturnPeachIceTea() {
+    public void shouldGenerateARandomBubbleTeaTypePeachIceTeaWhenGetRandomBubbleTeaTypeIsCalled() {
 
         //Arrange
         RandomStub randomStub = new RandomStub(BubbleTeaTypeEnum.PeachIceTea.ordinal());
